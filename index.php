@@ -1,5 +1,5 @@
-<?php require_once __DIR__ . "/../includes/auth_guard.php"; ?>
-<?php require_once __DIR__ . "/../includes/header.php"; ?>
+<?php require_once __DIR__ . "/includes/auth_guard.php"; ?>
+<?php require_once __DIR__ . "/includes/header.php"; ?>
 <header class="page-head">
           <div>
             <h1>Fleet</h1>
@@ -24,7 +24,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/thumb-example.jpg" class="lazy" alt="Grand Bohemia exterior">
+                      <img data-src="./assets/thumbs/thumb-example.jpg" class="lazy" alt="Grand Bohemia exterior">
                     </p>
                     <big>Photos - exterior</big>
                     <div class="clearfix"></div>
@@ -61,7 +61,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/grandbohemia-interior.jpg" class="lazy" alt="Grand Bohemia interior">
+                      <img data-src="./assets/thumbs/grandbohemia-interior.jpg" class="lazy" alt="Grand Bohemia interior">
                     </p>
                     <big>Photos - interior</big>
                     <div class="clearfix"></div>
@@ -84,7 +84,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/grandbohemia-events.jpg" class="lazy" alt="Grand Bohemia events">
+                      <img data-src="./assets/thumbs/grandbohemia-events.jpg" class="lazy" alt="Grand Bohemia events">
                     </p>
                     <big>Photos - events</big>
                     <div class="clearfix"></div>
@@ -107,7 +107,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/grandbohemia-nye.jpg" class="lazy" alt="Grand Bohemia NYE">
+                      <img data-src="./assets/thumbs/grandbohemia-nye.jpg" class="lazy" alt="Grand Bohemia NYE">
                     </p>
                     <big>Photos - NYE</big>
                     <div class="clearfix"></div>
@@ -130,7 +130,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/grandbohemia-ads.jpg" class="lazy" alt="Grand Bohemia ads">
+                      <img data-src="./assets/thumbs/grandbohemia-ads.jpg" class="lazy" alt="Grand Bohemia ads">
                     </p>
                     <big>Photos - ads</big>
                     <div class="clearfix"></div>
@@ -153,7 +153,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/grandbohemia-reels.jpg" class="lazy" alt="Grand Bohemia reels">
+                      <img data-src="./assets/thumbs/grandbohemia-reels.jpg" class="lazy" alt="Grand Bohemia reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -185,7 +185,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/bohemiarhapsody-exterior.jpg" class="lazy" alt="Bohemia Rhapsody exterior">
+                      <img data-src="./assets/thumbs/bohemiarhapsody-exterior.jpg" class="lazy" alt="Bohemia Rhapsody exterior">
                     </p>
                     <big>Photos - exterior</big>
                     <div class="clearfix"></div>
@@ -222,7 +222,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/bohemiarhapsody-interior.jpg" class="lazy" alt="Bohemia Rhapsody interior">
+                      <img data-src="./assets/thumbs/bohemiarhapsody-interior.jpg" class="lazy" alt="Bohemia Rhapsody interior">
                     </p>
                     <big>Photos - interior</big>
                     <div class="clearfix"></div>
@@ -245,7 +245,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/bohemiarhapsody-events.jpg" class="lazy" alt="Bohemia Rhapsody events">
+                      <img data-src="./assets/thumbs/bohemiarhapsody-events.jpg" class="lazy" alt="Bohemia Rhapsody events">
                     </p>
                     <big>Photos - events</big>
                     <div class="clearfix"></div>
@@ -268,7 +268,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/bohemiarhapsody-nye.jpg" class="lazy" alt="Bohemia Rhapsody NYE">
+                      <img data-src="./assets/thumbs/bohemiarhapsody-nye.jpg" class="lazy" alt="Bohemia Rhapsody NYE">
                     </p>
                     <big>Photos - NYE</big>
                     <div class="clearfix"></div>
@@ -291,7 +291,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/bohemiarhapsody-ads.jpg" class="lazy" alt="Bohemia Rhapsody ads">
+                      <img data-src="./assets/thumbs/bohemiarhapsody-ads.jpg" class="lazy" alt="Bohemia Rhapsody ads">
                     </p>
                     <big>Photos - ads</big>
                     <div class="clearfix"></div>
@@ -314,7 +314,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/bohemiarhapsody-reels.jpg" class="lazy" alt="Bohemia Rhapsody reels">
+                      <img data-src="./assets/thumbs/bohemiarhapsody-reels.jpg" class="lazy" alt="Bohemia Rhapsody reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -346,7 +346,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/agnesdebohemia-exterior.JPG" class="lazy" alt="Agnes de Bohemia exterior">
+                      <img data-src="./assets/thumbs/agnesdebohemia-exterior.JPG" class="lazy" alt="Agnes de Bohemia exterior">
                     </p>
                     <big>Photos - exterior</big>
                     <div class="clearfix"></div>
@@ -383,7 +383,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/agnesdebohemia-interior.jpg" class="lazy" alt="Agnes de Bohemia interior">
+                      <img data-src="./assets/thumbs/agnesdebohemia-interior.jpg" class="lazy" alt="Agnes de Bohemia interior">
                     </p>
                     <big>Photos - interior</big>
                     <div class="clearfix"></div>
@@ -406,7 +406,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/agnesdebohemia-events.jpg" class="lazy" alt="Agnes de Bohemia events">
+                      <img data-src="./assets/thumbs/agnesdebohemia-events.jpg" class="lazy" alt="Agnes de Bohemia events">
                     </p>
                     <big>Photos - events</big>
                     <div class="clearfix"></div>
@@ -429,7 +429,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/agnesdebohemia-nye.jpg" class="lazy" alt="Agnes de Bohemia NYE">
+                      <img data-src="./assets/thumbs/agnesdebohemia-nye.jpg" class="lazy" alt="Agnes de Bohemia NYE">
                     </p>
                     <big>Photos – NYE</big>
                     <div class="clearfix"></div>
@@ -452,7 +452,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/agnesdebohemia-reels.jpg" class="lazy" alt="Agnes de Bohemia reels">
+                      <img data-src="./assets/thumbs/agnesdebohemia-reels.jpg" class="lazy" alt="Agnes de Bohemia reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -484,7 +484,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/anna_carolina_exterior.jpg" class="lazy" alt="Anna Carolina exterior">
+                      <img data-src="./assets/thumbs/anna_carolina_exterior.jpg" class="lazy" alt="Anna Carolina exterior">
                     </p>
                     <big>Photos - exterior</big>
                     <div class="clearfix"></div>
@@ -521,7 +521,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/anna_carolina_interior.jpg" class="lazy" alt="Anna Carolina interior">
+                      <img data-src="./assets/thumbs/anna_carolina_interior.jpg" class="lazy" alt="Anna Carolina interior">
                     </p>
                     <big>Photos - interior</big>
                     <div class="clearfix"></div>
@@ -544,7 +544,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/anna_carolina_events.jpg" class="lazy" alt="Anna Carolina events">
+                      <img data-src="./assets/thumbs/anna_carolina_events.jpg" class="lazy" alt="Anna Carolina events">
                     </p>
                     <big>Photos - events</big>
                     <div class="clearfix"></div>
@@ -567,7 +567,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/anna_carolina_nye.jpg" class="lazy" alt="Anna Carolina NYE">
+                      <img data-src="./assets/thumbs/anna_carolina_nye.jpg" class="lazy" alt="Anna Carolina NYE">
                     </p>
                     <big>Photos - NYE</big>
                     <div class="clearfix"></div>
@@ -590,7 +590,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/annacarolina-germany.jpg" class="lazy" alt="Anna Carolina Germany">
+                      <img data-src="./assets/thumbs/annacarolina-germany.jpg" class="lazy" alt="Anna Carolina Germany">
                     </p>
                     <big>Photos - Germany</big>
                     <div class="clearfix"></div>
@@ -613,7 +613,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/annacarolina-reels.jpg" class="lazy" alt="Anna Carolina reels">
+                      <img data-src="./assets/thumbs/annacarolina-reels.jpg" class="lazy" alt="Anna Carolina reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -645,7 +645,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/bellabohemia-exterior.jpg" class="lazy" alt="Bella Bohemia exterior">
+                      <img data-src="./assets/thumbs/bellabohemia-exterior.jpg" class="lazy" alt="Bella Bohemia exterior">
                     </p>
                     <big>Photos - exterior</big>
                     <div class="clearfix"></div>
@@ -682,7 +682,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/bellabohemia-events.jpg" class="lazy" alt="Bella Bohemia events">
+                      <img data-src="./assets/thumbs/bellabohemia-events.jpg" class="lazy" alt="Bella Bohemia events">
                     </p>
                     <big>Photos - events</big>
                     <div class="clearfix"></div>
@@ -705,7 +705,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/bellabohemia-bolle.jpg" class="lazy" alt="Bella Bohemia Bolle">
+                      <img data-src="./assets/thumbs/bellabohemia-bolle.jpg" class="lazy" alt="Bella Bohemia Bolle">
                     </p>
                     <big>Photos - Bolle</big>
                     <div class="clearfix"></div>
@@ -728,7 +728,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/600x350-nye.jpg" class="lazy" alt="Bella Bohemia NYE">
+                      <img data-src="./assets/thumbs/600x350-nye.jpg" class="lazy" alt="Bella Bohemia NYE">
                     </p>
                     <big>Photos - NYE</big>
                     <div class="clearfix"></div>
@@ -751,7 +751,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/bellabohemia-reels.jpg" class="lazy" alt="Bella Bohemia reels">
+                      <img data-src="./assets/thumbs/bellabohemia-reels.jpg" class="lazy" alt="Bella Bohemia reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -783,7 +783,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/mariebohemia-exterior.jpg" class="lazy" alt="Marie d' Bohemia exterior">
+                      <img data-src="./assets/thumbs/mariebohemia-exterior.jpg" class="lazy" alt="Marie d' Bohemia exterior">
                     </p>
                     <big>Photos - exterior</big>
                     <div class="clearfix"></div>
@@ -820,7 +820,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/mariebohemia-events.jpg" class="lazy" alt="Marie d' Bohemia events">
+                      <img data-src="./assets/thumbs/mariebohemia-events.jpg" class="lazy" alt="Marie d' Bohemia events">
                     </p>
                     <big>Photos - events</big>
                     <div class="clearfix"></div>
@@ -843,7 +843,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/600x350-nye.jpg" class="lazy" alt="Marie d' Bohemia NYE">
+                      <img data-src="./assets/thumbs/600x350-nye.jpg" class="lazy" alt="Marie d' Bohemia NYE">
                     </p>
                     <big>Photos - NYE</big>
                     <div class="clearfix"></div>
@@ -866,7 +866,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/mariebohemia-reels.jpg" class="lazy" alt="Marie d' Bohemia reels">
+                      <img data-src="./assets/thumbs/mariebohemia-reels.jpg" class="lazy" alt="Marie d' Bohemia reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -898,7 +898,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/luznice-exterior.jpg" class="lazy" alt="Luznice exterior">
+                      <img data-src="./assets/thumbs/luznice-exterior.jpg" class="lazy" alt="Luznice exterior">
                     </p>
                     <big>Photos - exterior</big>
                     <div class="clearfix"></div>
@@ -935,7 +935,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/luznice-interior.jpg" class="lazy" alt="Luznice interior">
+                      <img data-src="./assets/thumbs/luznice-interior.jpg" class="lazy" alt="Luznice interior">
                     </p>
                     <big>Photos - interior</big>
                     <div class="clearfix"></div>
@@ -958,7 +958,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/luznice-ads.jpg" class="lazy" alt="Luznice ads">
+                      <img data-src="./assets/thumbs/luznice-ads.jpg" class="lazy" alt="Luznice ads">
                     </p>
                     <big>Photos - ads</big>
                     <div class="clearfix"></div>
@@ -981,7 +981,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/luznice-meals.jpg" class="lazy" alt="Luznice meals">
+                      <img data-src="./assets/thumbs/luznice-meals.jpg" class="lazy" alt="Luznice meals">
                     </p>
                     <big>Photos - meals (Sweet Prague)</big>
                     <div class="clearfix"></div>
@@ -1004,7 +1004,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/luznice-events.jpg" class="lazy" alt="Luznice events">
+                      <img data-src="./assets/thumbs/luznice-events.jpg" class="lazy" alt="Luznice events">
                     </p>
                     <big>Photos - events</big>
                     <div class="clearfix"></div>
@@ -1027,7 +1027,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/luznice-nye.jpg" class="lazy" alt="Luznice NYE">
+                      <img data-src="./assets/thumbs/luznice-nye.jpg" class="lazy" alt="Luznice NYE">
                     </p>
                     <big>Photos – NYE</big>
                     <div class="clearfix"></div>
@@ -1059,7 +1059,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/labe-exterior.jpg" class="lazy" alt="Labe exterior">
+                      <img data-src="./assets/thumbs/labe-exterior.jpg" class="lazy" alt="Labe exterior">
                     </p>
                     <big>Photos - exterior</big>
                     <div class="clearfix"></div>
@@ -1089,7 +1089,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/labe-interior.jpg" class="lazy" alt="Labe interior">
+                      <img data-src="./assets/thumbs/labe-interior.jpg" class="lazy" alt="Labe interior">
                     </p>
                     <big>Photos - interior</big>
                     <div class="clearfix"></div>
@@ -1112,7 +1112,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/labe-events.jpg" class="lazy" alt="Labe events">
+                      <img data-src="./assets/thumbs/labe-events.jpg" class="lazy" alt="Labe events">
                     </p>
                     <big>Photos – events</big>
                     <div class="clearfix"></div>
@@ -1135,7 +1135,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/labe-exterior.jpg" class="lazy" alt="Labe NYE">
+                      <img data-src="./assets/thumbs/labe-exterior.jpg" class="lazy" alt="Labe NYE">
                     </p>
                     <big>Photos – NYE</big>
                     <div class="clearfix"></div>
@@ -1158,7 +1158,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/labe-2024.jpg" class="lazy" alt="Labe 2024">
+                      <img data-src="./assets/thumbs/labe-2024.jpg" class="lazy" alt="Labe 2024">
                     </p>
                     <big>Photos – 2024</big>
                     <div class="clearfix"></div>
@@ -1190,7 +1190,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/valencia-exterior.jpg" class="lazy" alt="Valencia exterior">
+                      <img data-src="./assets/thumbs/valencia-exterior.jpg" class="lazy" alt="Valencia exterior">
                     </p>
                     <big>Photos – exterior</big>
                     <div class="clearfix"></div>
@@ -1227,7 +1227,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/valencia-interior.jpg" class="lazy" alt="Valencia interior">
+                      <img data-src="./assets/thumbs/valencia-interior.jpg" class="lazy" alt="Valencia interior">
                     </p>
                     <big>Photos – interior</big>
                     <div class="clearfix"></div>
@@ -1250,7 +1250,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/valencia-events.jpg" class="lazy" alt="Valencia events">
+                      <img data-src="./assets/thumbs/valencia-events.jpg" class="lazy" alt="Valencia events">
                     </p>
                     <big>Photos – events</big>
                     <div class="clearfix"></div>
@@ -1273,7 +1273,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/valencia-rauty.jpg" class="lazy" alt="Valencia buffet">
+                      <img data-src="./assets/thumbs/valencia-rauty.jpg" class="lazy" alt="Valencia buffet">
                     </p>
                     <big>Photos – buffet</big>
                     <div class="clearfix"></div>
@@ -1296,7 +1296,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/valencia-nye.jpg" class="lazy" alt="Valencia NYE">
+                      <img data-src="./assets/thumbs/valencia-nye.jpg" class="lazy" alt="Valencia NYE">
                     </p>
                     <big>Photos – NYE</big>
                     <div class="clearfix"></div>
@@ -1319,7 +1319,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/valencia-valentyn.jpg" class="lazy" alt="Valencia Valentyn">
+                      <img data-src="./assets/thumbs/valencia-valentyn.jpg" class="lazy" alt="Valencia Valentyn">
                     </p>
                     <big>Photos – Valentine's Day</big>
                     <div class="clearfix"></div>
@@ -1342,7 +1342,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/valencia-reels.jpg" class="lazy" alt="Valencia reels">
+                      <img data-src="./assets/thumbs/valencia-reels.jpg" class="lazy" alt="Valencia reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -1374,7 +1374,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/vltava-exterior.jpg" class="lazy" alt="Vltava exterior">
+                      <img data-src="./assets/thumbs/vltava-exterior.jpg" class="lazy" alt="Vltava exterior">
                     </p>
                     <big>Photos – exterior</big>
                     <div class="clearfix"></div>
@@ -1411,7 +1411,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/vltava-interior.jpg" class="lazy" alt="Vltava interior">
+                      <img data-src="./assets/thumbs/vltava-interior.jpg" class="lazy" alt="Vltava interior">
                     </p>
                     <big>Photos – interior</big>
                     <div class="clearfix"></div>
@@ -1434,7 +1434,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/vltava-events.jpg" class="lazy" alt="Vltava events">
+                      <img data-src="./assets/thumbs/vltava-events.jpg" class="lazy" alt="Vltava events">
                     </p>
                     <big>Photos – events</big>
                     <div class="clearfix"></div>
@@ -1457,7 +1457,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/vltava-reels.jpg" class="lazy" alt="Vltava reels">
+                      <img data-src="./assets/thumbs/vltava-reels.jpg" class="lazy" alt="Vltava reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -1489,7 +1489,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/adria-exterior.jpg" class="lazy" alt="Adria exterior">
+                      <img data-src="./assets/thumbs/adria-exterior.jpg" class="lazy" alt="Adria exterior">
                     </p>
                     <big>Photos – exterior</big>
                     <div class="clearfix"></div>
@@ -1521,7 +1521,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/sarka.jpg" class="lazy" alt="Bivoj exterior">
+                      <img data-src="./assets/thumbs/sarka.jpg" class="lazy" alt="Bivoj exterior">
                     </p>
                     <big>Photos – exterior</big>
                     <div class="clearfix"></div>
@@ -1567,7 +1567,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/janhus.jpg" class="lazy" alt="Jan Hus exterior">
+                      <img data-src="./assets/thumbs/janhus.jpg" class="lazy" alt="Jan Hus exterior">
                     </p>
                     <big>Photos – exterior</big>
                     <div class="clearfix"></div>
@@ -1589,7 +1589,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/janhus-reels.jpg" class="lazy" alt="Jan Hus reels">
+                      <img data-src="./assets/thumbs/janhus-reels.jpg" class="lazy" alt="Jan Hus reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -1621,7 +1621,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/semik.jpg" class="lazy" alt="Semik exterior">
+                      <img data-src="./assets/thumbs/semik.jpg" class="lazy" alt="Semik exterior">
                     </p>
                     <big>Photos – exterior</big>
                     <div class="clearfix"></div>
@@ -1657,7 +1657,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/semik-reels.jpg" class="lazy" alt="Semik reels">
+                      <img data-src="./assets/thumbs/semik-reels.jpg" class="lazy" alt="Semik reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -1689,7 +1689,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/horymir.JPG" class="lazy" alt="Horymir exterior">
+                      <img data-src="./assets/thumbs/horymir.JPG" class="lazy" alt="Horymir exterior">
                     </p>
                     <big>Photos - exterior</big>
                     <div class="clearfix"></div>
@@ -1721,7 +1721,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/cecilie-exterior.JPG" class="lazy" alt="Cecilie exterior">
+                      <img data-src="./assets/thumbs/cecilie-exterior.JPG" class="lazy" alt="Cecilie exterior">
                     </p>
                     <big>Photos – exterior</big>
                     <div class="clearfix"></div>
@@ -1743,7 +1743,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/cecilie-interior.jpg" class="lazy" alt="Cecilie interior">
+                      <img data-src="./assets/thumbs/cecilie-interior.jpg" class="lazy" alt="Cecilie interior">
                     </p>
                     <big>Photos – interior</big>
                     <div class="clearfix"></div>
@@ -1765,7 +1765,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/cecilie-events.jpg" class="lazy" alt="Cecilie events">
+                      <img data-src="./assets/thumbs/cecilie-events.jpg" class="lazy" alt="Cecilie events">
                     </p>
                     <big>Photos – events</big>
                     <div class="clearfix"></div>
@@ -1787,7 +1787,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/cecilie-nye.jpg" class="lazy" alt="Cecilie NYE">
+                      <img data-src="./assets/thumbs/cecilie-nye.jpg" class="lazy" alt="Cecilie NYE">
                     </p>
                     <big>Photos – NYE</big>
                     <div class="clearfix"></div>
@@ -1819,7 +1819,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/odra-exterior.jpg" class="lazy" alt="Odra exterior">
+                      <img data-src="./assets/thumbs/odra-exterior.jpg" class="lazy" alt="Odra exterior">
                     </p>
                     <big>Photos - exterior</big>
                     <div class="clearfix"></div>
@@ -1841,7 +1841,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/odra.jpg" class="lazy" alt="Odra reels">
+                      <img data-src="./assets/thumbs/odra.jpg" class="lazy" alt="Odra reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -1873,7 +1873,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/andante-exterior.jpg" class="lazy" alt="Andante exterior">
+                      <img data-src="./assets/thumbs/andante-exterior.jpg" class="lazy" alt="Andante exterior">
                     </p>
                     <big>Photos - exterior</big>
                     <div class="clearfix"></div>
@@ -1895,7 +1895,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/andante-reels.jpg" class="lazy" alt="Andante reels">
+                      <img data-src="./assets/thumbs/andante-reels.jpg" class="lazy" alt="Andante reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -1927,7 +1927,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/riverhotel-exterior.jpg" class="lazy" alt="River Hotel exterior">
+                      <img data-src="./assets/thumbs/riverhotel-exterior.jpg" class="lazy" alt="River Hotel exterior">
                     </p>
                     <big>Photos - exterior</big>
                     <div class="clearfix"></div>
@@ -1949,7 +1949,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/riverhotel-interior.jpg" class="lazy" alt="River Hotel interior">
+                      <img data-src="./assets/thumbs/riverhotel-interior.jpg" class="lazy" alt="River Hotel interior">
                     </p>
                     <big>Photos - interior</big>
                     <div class="clearfix"></div>
@@ -1981,7 +1981,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/vysehrad-exterior.jpg" class="lazy" alt="Vysehrad exterior">
+                      <img data-src="./assets/thumbs/vysehrad-exterior.jpg" class="lazy" alt="Vysehrad exterior">
                     </p>
                     <big>Photos - exterior</big>
                     <div class="clearfix"></div>
@@ -2003,7 +2003,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/vysehrad-interior.jpg" class="lazy" alt="Vysehrad interior">
+                      <img data-src="./assets/thumbs/vysehrad-interior.jpg" class="lazy" alt="Vysehrad interior">
                     </p>
                     <big>Photos - interior</big>
                     <div class="clearfix"></div>
@@ -2035,7 +2035,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/elvira.jpg" class="lazy" alt="Elvira exterior">
+                      <img data-src="./assets/thumbs/elvira.jpg" class="lazy" alt="Elvira exterior">
                     </p>
                     <big>Photos – exterior</big>
                     <div class="clearfix"></div>
@@ -2075,7 +2075,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/cechuvmost.jpg" class="lazy" alt="Cechuv most">
+                      <img data-src="./assets/thumbs/cechuvmost.jpg" class="lazy" alt="Cechuv most">
                     </p>
                     <big>Photos</big>
                     <div class="clearfix"></div>
@@ -2107,7 +2107,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/rasinovonabrezi.jpg" class="lazy" alt="Rasinovo nabrezi">
+                      <img data-src="./assets/thumbs/rasinovonabrezi.jpg" class="lazy" alt="Rasinovo nabrezi">
                     </p>
                     <big>Photos</big>
                     <div class="clearfix"></div>
@@ -2139,7 +2139,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/zoo.jpg" class="lazy" alt="Zoo pristaviste">
+                      <img data-src="./assets/thumbs/zoo.jpg" class="lazy" alt="Zoo pristaviste">
                     </p>
                     <big>Photos</big>
                     <div class="clearfix"></div>
@@ -2179,7 +2179,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/davle.jpg" class="lazy" alt="Davle photos">
+                      <img data-src="./assets/thumbs/davle.jpg" class="lazy" alt="Davle photos">
                     </p>
                     <big>Photos</big>
                     <div class="clearfix"></div>
@@ -2201,7 +2201,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/davle.jpg" class="lazy" alt="Davle reels">
+                      <img data-src="./assets/thumbs/davle.jpg" class="lazy" alt="Davle reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -2233,7 +2233,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/slapskaprehrada-pamatky.jpg" class="lazy" alt="Slapska prehrada photos">
+                      <img data-src="./assets/thumbs/slapskaprehrada-pamatky.jpg" class="lazy" alt="Slapska prehrada photos">
                     </p>
                     <big>Photos</big>
                     <div class="clearfix"></div>
@@ -2255,7 +2255,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/slapskaprehrada-reels.jpg" class="lazy" alt="Slapska prehrada reels">
+                      <img data-src="./assets/thumbs/slapskaprehrada-reels.jpg" class="lazy" alt="Slapska prehrada reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -2287,7 +2287,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/staromestsky-jez.jpg" class="lazy" alt="Staromestsky jez reels">
+                      <img data-src="./assets/thumbs/staromestsky-jez.jpg" class="lazy" alt="Staromestsky jez reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -2319,7 +2319,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/stechovice-pamatky.jpg" class="lazy" alt="Stechovice photos">
+                      <img data-src="./assets/thumbs/stechovice-pamatky.jpg" class="lazy" alt="Stechovice photos">
                     </p>
                     <big>Photos</big>
                     <div class="clearfix"></div>
@@ -2341,7 +2341,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/stechovice-reels.jpg" class="lazy" alt="Stechovice reels">
+                      <img data-src="./assets/thumbs/stechovice-reels.jpg" class="lazy" alt="Stechovice reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -2373,7 +2373,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/stechovickaprehrada-pamatky.jpg" class="lazy" alt="Stechovicka prehrada photos">
+                      <img data-src="./assets/thumbs/stechovickaprehrada-pamatky.jpg" class="lazy" alt="Stechovicka prehrada photos">
                     </p>
                     <big>Photos</big>
                     <div class="clearfix"></div>
@@ -2395,7 +2395,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/stechovickaprehrada-reels.jpg" class="lazy" alt="Stechovicka prehrada reels">
+                      <img data-src="./assets/thumbs/stechovickaprehrada-reels.jpg" class="lazy" alt="Stechovicka prehrada reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -2427,7 +2427,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/veslarsky-ostrov.jpg" class="lazy" alt="Veslarsky ostrov reels">
+                      <img data-src="./assets/thumbs/veslarsky-ostrov.jpg" class="lazy" alt="Veslarsky ostrov reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -2459,7 +2459,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/vysehrad.jpg" class="lazy" alt="Vysehrad reels">
+                      <img data-src="./assets/thumbs/vysehrad.jpg" class="lazy" alt="Vysehrad reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -2491,7 +2491,7 @@
                 <div class="bg">
                   <div class="title">
                     <p class="pull-left">
-                      <img data-src="./thumbs/zeleznicni-most.jpg" class="lazy" alt="Zeleznicni most reels">
+                      <img data-src="./assets/thumbs/zeleznicni-most.jpg" class="lazy" alt="Zeleznicni most reels">
                     </p>
                     <big>Reels</big>
                     <div class="clearfix"></div>
@@ -2524,7 +2524,7 @@
               <div class="bg">
                 <div class="title">
                   <p class="pull-left">
-                    <img data-src="./thumbs/historicke-foto.jpg" class="lazy" alt="Historicke foto">
+                    <img data-src="./assets/thumbs/historicke-foto.jpg" class="lazy" alt="Historicke foto">
                   </p>
                   <big></big>
                   <div class="clearfix"></div>
@@ -2556,7 +2556,7 @@
               <div class="bg">
                 <div class="title">
                   <p class="pull-left">
-                    <img data-src="./thumbs/catering.jpg" class="lazy" alt="Catering">
+                    <img data-src="./assets/thumbs/catering.jpg" class="lazy" alt="Catering">
                   </p>
                   <big></big>
                   <div class="clearfix"></div>
@@ -2588,7 +2588,7 @@
               <div class="bg">
                 <div class="title">
                   <p class="pull-left">
-                    <img data-src="./thumbs/logo-pb.jpg" class="lazy" alt="Logos">
+                    <img data-src="./assets/thumbs/logo-pb.jpg" class="lazy" alt="Logos">
                   </p>
                   <big>Logos</big>
                   <div class="clearfix"></div>
@@ -2735,13 +2735,13 @@
             <div class="video-container">
               <div class="video-wrapper">
                 <video controls>
-                  <source src="/media/content/Drink_1.mp4" type="video/mp4" />
+                  <source src="/assets/media/content/Drink_1.mp4" type="video/mp4" />
                   Váš prohlížeč nepodporuje HTML5 video.
                 </video>
               </div>
               <div class="video-wrapper">
                 <video controls>
-                  <source src="/media/content/Drink_2.mp4" type="video/mp4" />
+                  <source src="/assets/media/content/Drink_2.mp4" type="video/mp4" />
                   Váš prohlížeč nepodporuje HTML5 video.
                 </video>
               </div>
@@ -2753,13 +2753,13 @@
             <div class="video-container">
               <div class="video-wrapper">
                 <video controls>
-                  <source src="/media/content/Drink_1_horizontal.mp4" type="video/mp4" />
+                  <source src="/assets/media/content/Drink_1_horizontal.mp4" type="video/mp4" />
                   Váš prohlížeč nepodporuje HTML5 video.
                 </video>
               </div>
               <div class="video-wrapper">
                 <video controls>
-                  <source src="/media/content/Drink_2_horizontal.mp4" type="video/mp4" />
+                  <source src="/assets/media/content/Drink_2_horizontal.mp4" type="video/mp4" />
                   Váš prohlížeč nepodporuje HTML5 video.
                 </video>
               </div>
@@ -2778,49 +2778,49 @@
             <div class="video-container">
               <div class="video-wrapper">
                 <video controls>
-                  <source src="/media/content/2025_02_15_Chef_1.mp4" type="video/mp4" />
+                  <source src="/assets/media/content/2025_02_15_Chef_1.mp4" type="video/mp4" />
                   Váš prohlížeč nepodporuje HTML5 video.
                 </video>
               </div>
               <div class="video-wrapper">
                 <video controls>
-                  <source src="/media/content/2025_02_15_Chef_2.mp4" type="video/mp4" />
+                  <source src="/assets/media/content/2025_02_15_Chef_2.mp4" type="video/mp4" />
                   Váš prohlížeč nepodporuje HTML5 video.
                 </video>
               </div>
               <div class="video-wrapper">
                 <video controls>
-                  <source src="/media/content/2025_02_15_Chef_3.mp4" type="video/mp4" />
+                  <source src="/assets/media/content/2025_02_15_Chef_3.mp4" type="video/mp4" />
                   Váš prohlížeč nepodporuje HTML5 video.
                 </video>
               </div>
               <div class="video-wrapper">
                 <video controls>
-                  <source src="/media/content/2025_02_15_Chef_4.mp4" type="video/mp4" />
+                  <source src="/assets/media/content/2025_02_15_Chef_4.mp4" type="video/mp4" />
                   Váš prohlížeč nepodporuje HTML5 video.
                 </video>
               </div>
               <div class="video-wrapper">
                 <video controls>
-                  <source src="/media/content/2025_02_15_Chef_5.mp4" type="video/mp4" />
+                  <source src="/assets/media/content/2025_02_15_Chef_5.mp4" type="video/mp4" />
                   Váš prohlížeč nepodporuje HTML5 video.
                 </video>
               </div>
               <div class="video-wrapper">
                 <video controls>
-                  <source src="/media/content/2025_02_15_Chef_6.mp4" type="video/mp4" />
+                  <source src="/assets/media/content/2025_02_15_Chef_6.mp4" type="video/mp4" />
                   Váš prohlížeč nepodporuje HTML5 video.
                 </video>
               </div>
               <div class="video-wrapper">
                 <video controls>
-                  <source src="/media/content/2025_02_15_Chef_7.mp4" type="video/mp4" />
+                  <source src="/assets/media/content/2025_02_15_Chef_7.mp4" type="video/mp4" />
                   Váš prohlížeč nepodporuje HTML5 video.
                 </video>
               </div>
               <div class="video-wrapper">
                 <video controls>
-                  <source src="/media/content/2025_02_15_Chef_8.mp4" type="video/mp4" />
+                  <source src="/assets/media/content/2025_02_15_Chef_8.mp4" type="video/mp4" />
                   Váš prohlížeč nepodporuje HTML5 video.
                 </video>
               </div>
@@ -3443,4 +3443,4 @@
             </div>
           </div>
         </div>
-<?php require_once __DIR__ . "/../includes/footer.php"; ?>
+<?php require_once __DIR__ . "/includes/footer.php"; ?>

@@ -6,77 +6,33 @@ PHP verze media hubu Prague Boats s ochranou heslem.
 
 ```
 prague-boats-media/
+├── .htaccess                 # Apache rewrite + security pravidla
+├── index.php                 # Hlavní stránka (chráněná heslem)
+├── login.php                 # Přihlašovací stránka (veřejná)
+├── logout.php                # Odhlášení
+├── assets/
+│   ├── css/
+│   │   └── styles.css        # CSS styly
+│   ├── logo/
+│   │   └── logo.svg          # Logo Prague Boats
+│   ├── thumbs/               # Náhledy obrázků
+│   └── media/
+│       └── content/          # Video soubory
 ├── config/
 │   └── auth.php              # Konfigurace hesla (JEDINÝ soubor pro změnu hesla)
 ├── includes/
-│   ├── auth_guard.php         # Ochrana stránek - přesměruje nepřihlášené na login
-│   ├── header.php             # HTML hlavička + sidebar navigace + logout tlačítko
-│   └── footer.php             # Patička + JavaScript
-├── public/                    # WEBROOT - nastavit jako document root
-│   ├── .htaccess              # Apache rewrite pravidla
-│   ├── index.php              # Hlavní stránka (chráněná heslem)
-│   ├── login.php              # Přihlašovací stránka (veřejná)
-│   ├── logout.php             # Odhlášení
-│   ├── styles.css             # CSS styly
-│   ├── logo/
-│   │   └── logo.svg           # Logo Prague Boats
-│   ├── thumbs/                # Náhledy obrázků (nutno doplnit z originálu)
-│   └── media/
-│       └── content/           # Video soubory (nutno doplnit z originálu)
+│   ├── auth_guard.php        # Ochrana stránek - přesměruje nepřihlášené na login
+│   ├── header.php            # HTML hlavička + sidebar navigace + logout tlačítko
+│   └── footer.php            # Patička + JavaScript
 └── README.md
 ```
 
-## Nasazení
+## Nasazení na Hostinger (sdílený hosting)
 
-### Apache
-
-1. Nahrajte celý projekt na server.
-2. Nastavte **document root** na složku `public/`.
-3. Ověřte, že je povolený `mod_rewrite` a `.htaccess`:
-   ```apache
-   <Directory /var/www/html/public>
-       AllowOverride All
-       Require all granted
-   </Directory>
-   ```
-4. Restartujte Apache: `sudo systemctl restart apache2`
-
-### Nginx
-
-1. Nahrajte celý projekt na server.
-2. Nastavte konfiguraci:
-   ```nginx
-   server {
-       listen 80;
-       server_name media.prague-boats.cz;
-       root /var/www/prague-boats-media/public;
-       index index.php;
-
-       location / {
-           try_files $uri $uri/ /index.php?$query_string;
-       }
-
-       location ~ \.php$ {
-           fastcgi_pass unix:/var/run/php/php-fpm.sock;
-           fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
-           include fastcgi_params;
-       }
-
-       location ~ /\.(ht|git) {
-           deny all;
-       }
-   }
-   ```
-3. Restartujte Nginx: `sudo systemctl restart nginx`
-
-### Sdílený hosting
-
-1. Nahrajte obsah složky `public/` do hlavního adresáře webu (public_html / www).
-2. Složky `config/` a `includes/` nahrajte **o úroveň výš** (mimo public_html).
-3. Upravte cesty v souborech:
-   - `index.php`: změňte `__DIR__ . '/../includes/...'` na skutečnou cestu
-   - `login.php`: obdobně
-   - `auth_guard.php`: obdobně
+1. Nahrajte celý obsah repozitáře do `public_html/`.
+2. Složky `config/` a `includes/` jsou chráněny pravidly v `.htaccess`.
+3. Ověřte, že je povolený `mod_rewrite` (na Hostingeru standardně ano).
+4. Hotovo — žádné další nastavení serveru není potřeba.
 
 ## Změna hesla
 
@@ -101,5 +57,5 @@ prague-boats-media/
 
 Po nasazení je potřeba doplnit:
 
-- **Náhledy** (`public/thumbs/`) - zkopírujte z originálu nebo stáhněte z `https://media.prague-boats.cz/thumbs/`
-- **Videa** (`public/media/content/`) - zkopírujte z originálu
+- **Náhledy** (`assets/thumbs/`) - zkopírujte z originálu
+- **Videa** (`assets/media/content/`) - zkopírujte z originálu

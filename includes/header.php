@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex,nofollow" />
     <title>Media Hub — Prague Boats</title>
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
   </head>
   <body>
     <div class="app">
       <aside class="sidebar" aria-label="Hlavní navigace">
         <a class="brand" href="/">
-          <img class="brand-logo" src="/logo/logo.svg" alt="Prague Boats logo" />
+          <img class="brand-logo" src="/assets/logo/logo.svg" alt="Prague Boats logo" />
           <div class="brand-text">
             <div class="brand-title">PRAGUE BOATS</div>
             <div class="brand-subtitle">Media hub</div>
