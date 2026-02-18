@@ -19,10 +19,11 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT }}
           protocol: ftps
-          security: strict
+          security: loose
           server-dir: public_html/
           dangerous-clean-slate: false
           exclude: |
             **/.git*
             **/.DS_Store
             **/node_modules/**
+
